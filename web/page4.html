@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html  >
+<head>
+  <!-- Site made with Mobirise Website Builder v5.6.3, https://mobirise.com -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Mobirise v5.6.3, mobirise.com">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+  <link rel="shortcut icon" href="assets/images/p.png" type="image/x-icon">
+  <meta name="description" content="">
+  
+  
+  <title>Assistant</title>
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css">
+  <link rel="stylesheet" href="assets/dropdown/css/style.css">
+  <link rel="stylesheet" href="assets/socicon/css/styles.css">
+  <link rel="stylesheet" href="assets/theme/css/style.css">
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,400;0,700;1,400;1,700&display=swap&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,400;0,700;1,400;1,700&display=swap&display=swap"></noscript>
+  <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
+  
+  
+  
+  
+</head>
+<body>
+  
+  <section data-bs-version="5.1" class="menu menu1 cid-sYzPd8S10E" once="menu" id="menu1-15">
+    
+
+    <nav class="navbar navbar-dropdown navbar-fixed-top navbar-expand-lg">
+        <div class="container-fluid">
+            <div class="navbar-brand">
+                <span class="navbar-logo">
+                    <a href="https://mobiri.se">
+                        <img src="assets/images/p.png" alt="Mobirise Website Builder" style="height: 3rem;">
+                    </a>
+                </span>
+                <span class="navbar-caption-wrap"><a class="navbar-caption text-black display-7" href="https://mobiri.se">Dhanush Portfolio</a></span>
+            </div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbarSupportedContent" data-bs-target="#navbarSupportedContent" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav nav-dropdown nav-right" data-app-modern-menu="true"><li class="nav-item"><a class="nav-link link text-black text-primary display-4" href="index.html">Home</a></li><li class="nav-item"><a class="nav-link link text-black text-primary display-4" href="page1.html">
+                            About Me</a></li>
+                    <li class="nav-item"><a class="nav-link link text-black text-primary display-4" href="page2.html">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link link text-black text-primary display-4" href="page7.html">Contacts</a>
+                    </li></ul>
+                
+                
+            </div>
+        </div>
+    </nav>
+</section>
+
+<section data-bs-version="5.1" class="content5 cid-sYzHwdb8zG" id="content5-o">
+    
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-12 col-lg-10">
+                
+                <h4 class="mbr-section-subtitle mbr-fonts-style mb-4 display-5">
+                    Python Assistant</h4>
+                <p class="mbr-text mbr-fonts-style display-7">import os
+<br>import webbrowser
+<br>import pyttsx3
+<br>
+<br>ai = pyttsx3.init('sapi5')
+<br>
+<br>def speech(audio):
+<br>ai.say(audio)
+<br>ai.runAndWait()
+<br>
+<br>speech("Hello, please let me recognize you")
+<br>password = input("Password Please: ")
+<br>if 'PYTTSX#' in password:
+<br>speech("Welcome Boss. What would you like me to do?")
+<br>else:
+<br>speech("You are not my Boss! Get out from here you loser!!!")
+<br>exit()
+<br>
+<br>while True:
+<br>Command = input("Command by the Boss: ")
+<br>
+<br>#opens stackoverflow
+<br>elif 'open stackoverflow' in Command:
+<br>stack = 'http://www.stackoverflow.com'
+<br>speech("Opening...")
+<br>os.startfile(stack)
+<br>
+<br>#opens github
+<br>elif 'open git' in Command:
+<br>git = 'http://www.github.com'
+<br>speech("Opening...")
+<br>os.startfile(git)
+<br>
+<br>#opens youtube
+<br>elif 'Youtube' in Command:
+<br>y = 'http://www.youtube.com'
+<br>speech("Opening...")
+<br>os.startfile(y)
+<br>
+<br>#opens google
+<br>elif 'google' in Command:
+<br>g = 'http//www.google.com'
+<br>speech("Opening...")
+<br>os.startfile(g)
+<br>
+<br>#opens Python playlist in youtube
+<br>elif 'open pyt' in Command:
+<br>webbrowser.open("https://www.youtube.com/playlist?list=PLu0W_9lII9agICnT8t4iYVSZ3eykIAOME")
+<br>speech("Opening...")
+<br>
+<br>#Opens Machine Learning Youtube playlist
+<br>elif 'open Mac' in Command:
+<br>webbrowser.open("https://www.youtube.com/playlist?list=PLu0W_9lII9ai6fAMHp-acBmJONT7Y4BSG")
+<br>speech("Opening...")
+<br>
+<br>#Calling JARVIS
+<br>elif 'jarvis' in Command:
+<br>speech("What is it that I can do for you Boss")
+<br>
+<br>#Appreciation
+<br>elif 'good jarvis' in Command:
+<br>speech("It is my job to keep you happy boss!")
+<br>
+<br>#opens gmail
+<br>elif 'open gmail' in Command:
+<br>webbrowser.open("gmail.com")
+<br>speech("Opening...")
+<br>
+<br>
+<br>#Exits program
+<br>elif 'xxx' in Command:
+<br>exit()
+<br>
+<br>else:
+<br>print("Invalid command Boss")</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section data-bs-version="5.1" class="footer3 cid-sYziRXlZtI" once="footers" id="footer3-n">
+
+    
+
+    
+
+    <div class="container">
+        <div class="media-container-row align-center mbr-white">
+            <div class="row row-links">
+                <ul class="foot-menu">
+                    
+                    
+                    
+                    
+                    
+                <li class="foot-menu-item mbr-fonts-style display-7">
+                        <a class="text-white text-primary" href="page1.html" target="_blank">About</a>&nbsp;Me</li><li class="foot-menu-item mbr-fonts-style display-7">Projects</li><li class="foot-menu-item mbr-fonts-style display-7">
+                        <a class="text-white text-primary" href="page7.html" target="_blank">Contact Us</a>
+                    </li><li class="foot-menu-item mbr-fonts-style display-7"></li><li class="foot-menu-item mbr-fonts-style display-7"></li></ul>
+            </div>
+            <div class="row social-row">
+                <div class="social-list align-right pb-2">
+                    
+                    
+                    
+                    
+                    
+                    
+                <div class="soc-item">
+                        <a href="https://twitter.com/mobirise" target="_blank">
+                            <span class="mbr-iconfont mbr-iconfont-social socicon-instagram socicon"></span>
+                        </a>
+                    </div><div class="soc-item">
+                        <a href="https://www.facebook.com/pages/Mobirise/1616226671953247" target="_blank">
+                            <span class="mbr-iconfont mbr-iconfont-social socicon-spotify socicon"></span>
+                        </a>
+                    </div><div class="soc-item">
+                        <a href="https://www.youtube.com/c/mobirise" target="_blank">
+                            <span class="socicon-youtube socicon mbr-iconfont mbr-iconfont-social"></span>
+                        </a>
+                    </div><div class="soc-item">
+                        <a href="https://instagram.com/mobirise" target="_blank">
+                            <span class="socicon-instagram socicon mbr-iconfont mbr-iconfont-social"></span>
+                        </a>
+                    </div><div class="soc-item">
+                        <a href="https://plus.google.com/u/0/+Mobirise" target="_blank">
+                            <span class="socicon-googleplus socicon mbr-iconfont mbr-iconfont-social"></span>
+                        </a>
+                    </div><div class="soc-item">
+                        <a href="https://www.behance.net/Mobirise" target="_blank">
+                            <span class="socicon-behance socicon mbr-iconfont mbr-iconfont-social"></span>
+                        </a>
+                    </div></div>
+            </div>
+            <div class="row row-copirayt">
+                <p class="mbr-text mb-0 mbr-fonts-style mbr-white align-center display-7">
+                    © Copyright 2022. All Rights Reserved.
+                </p>
+            </div>
+        </div>
+    </div>
+</section><section class="display-7" style="padding: 0;align-items: center;justify-content: center;flex-wrap: wrap;    align-content: center;display: flex;position: relative;height: 4rem;"><a href="https://mobiri.se/2711662" style="flex: 1 1;height: 4rem;position: absolute;width: 100%;z-index: 1;"><img alt="" style="height: 4rem;" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="></a><p style="margin: 0;text-align: center;" class="display-7">Built with &#8204;</p><a style="z-index:1" href="https://mobirise.com"> Free Website  Software</a></section><script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>  <script src="assets/smoothscroll/smooth-scroll.js"></script>  <script src="assets/ytplayer/index.js"></script>  <script src="assets/dropdown/js/navbar-dropdown.js"></script>  <script src="assets/theme/js/script.js"></script>  
+  
+  
+</body>
+</html>
